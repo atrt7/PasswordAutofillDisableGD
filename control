@@ -1,0 +1,9 @@
+Package: com.atrt7.passwordautofilldisablegd
+Name: PasswordAutofillDisableGD
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Disables password autofill in Geometry Dash.
+Maintainer: atrt7
+Author: atrt7
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
