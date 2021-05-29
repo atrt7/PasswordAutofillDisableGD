@@ -1,10 +1,5 @@
 #import <UIKit/UIKit.h>
 
-@interface UIKeyboardPreferencesController : NSObject
-    -(BOOL)isPasswordAutoFillAllowed;
-@end
-
-%group noKeyboard
 %hook UIKeyboardPreferencesController
     -(BOOL)isPasswordAutoFillAllowed {
         return NO;
