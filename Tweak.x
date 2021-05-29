@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 
+%group noKeyboard
 %hook UIKeyboardPreferencesController
     -(BOOL)isPasswordAutoFillAllowed {
         return NO;
